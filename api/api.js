@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const Base_URL = "http://37.140.242.172:8000/api/"
+const Base_URL = "https://ymgk-latest.onrender.com/"
 
 const getChaosMapAnalysis = async(chaos_map, formData) => {
     const response = await axios.post(Base_URL + chaos_map + "/", {
